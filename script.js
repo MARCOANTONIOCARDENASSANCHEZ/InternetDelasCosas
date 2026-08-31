@@ -21,7 +21,14 @@ function show(index){
   history.replaceState(null,'',`#${slides[current].id}`);
   document.title=`${slides[current].dataset.label} · IoT en Rusia`;
 }
-function finishTransition(){clearTimeout(transitionTimer);transitionRunning=false;transitionVideo.src='';iotTransition.classList.remove('playing');iotTransition.setAttribute('aria-hidden','true');show(1)}
+function finishTransition(){
+  clearTimeout(transitionTimer);
+  if(current===0)show(1);
+  transitionRunning=false;
+  transitionVideo.src='';
+  iotTransition.classList.remove('playing');
+  iotTransition.setAttribute('aria-hidden','true');
+}
 function go(index){
   if(current===0&&index===1&&!transitionRunning&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
     transitionRunning=true;transitionVideo.src='https://www.youtube-nocookie.com/embed/ot2SbM3ZOzk?start=0&end=24&autoplay=1&mute=1&controls=0&rel=0&playsinline=1&modestbranding=1&disablekb=1';iotTransition.classList.add('playing');iotTransition.setAttribute('aria-hidden','false');transitionTimer=setTimeout(finishTransition,24000);return;
