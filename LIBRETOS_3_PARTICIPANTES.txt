@@ -1,104 +1,165 @@
-LIBRETOS PARA LA EXPOSICIÓN: INTERNET DE LAS COSAS EN RUSIA
+LIBRETO PARA 3 EXPOSITORES
+INTERNET DE LAS COSAS (IoT) EN RUSIA
 
-Duración sugerida total: 9 a 12 minutos.
+Duración objetivo: 6 a 8 minutos
+Ritmo recomendado: hablar con calma, sin leer demasiado rápido.
+
+Distribución aproximada:
+- Expositor 1: diapositivas 1 a 3 — 2 minutos.
+- Expositor 2: diapositivas 4 a 6 — 2 minutos.
+- Expositor 3: diapositivas 7 a 10 — 2 minutos 30 segundos.
+- Margen para cambios de expositor: 30 segundos.
 
 ============================================================
-PARTICIPANTE 1 — DIAPOSITIVAS 1, 2 Y 3
-Introducción, concepto y situación del mercado
+EXPOSITOR 1 — DIAPOSITIVAS 1, 2 Y 3
+INTRODUCCIÓN, DEFINICIÓN Y SITUACIÓN ACTUAL
 ============================================================
 
-DIAPOSITIVA 1 — INTRODUCCIÓN
+DIAPOSITIVA 1 — INTERNET DE LAS COSAS EN RUSIA
+Tiempo: 30 segundos
 
-“Buenas tardes. Nuestro tema es el Internet de las Cosas en Rusia. El Internet de las Cosas, también llamado IoT por sus siglas en inglés, está transformando la manera en que funcionan las industrias, las ciudades y los servicios públicos.
+Qué hacer:
+- Saludar y presentar el tema.
+- Mirar al público; no leer el título completo de la pantalla.
 
-Elegimos analizar Rusia porque combina dos características muy importantes: posee una industria de gran tamaño y, al mismo tiempo, un territorio extremadamente extenso. Esto hace que la tecnología IoT tenga muchas oportunidades, pero también retos muy particulares.
+Qué decir:
 
-Durante la exposición veremos qué es el IoT, cuál es su situación en Rusia, sus principales aplicaciones, los obstáculos que enfrenta y cómo podría evolucionar en el futuro.”
+“Buenos días. Nuestro tema es el Internet de las Cosas en Rusia. Elegimos este país porque combina una industria muy grande con uno de los territorios más extensos del mundo. Estas características hacen que los dispositivos conectados puedan ser muy útiles en fábricas, energía, transporte y regiones remotas. Durante la exposición veremos qué es el IoT, sus oportunidades, sus principales retos y cómo podría evolucionar en el futuro.”
+
+Transición:
+“Primero debemos entender qué significa Internet de las Cosas.”
 
 DIAPOSITIVA 2 — ¿QUÉ ES EL IOT?
+Tiempo: 45 segundos
 
-“El Internet de las Cosas es un conjunto de tecnologías que permite conectar objetos físicos a una red. Estos objetos incorporan sensores y otros dispositivos capaces de recopilar, transmitir y recibir información.
+Qué hacer:
+- Señalar visualmente el recorrido de izquierda a derecha.
 
-El proceso puede explicarse en cuatro pasos. Primero tenemos un objeto, como una máquina, un vehículo o un medidor. Después, un sensor registra información, por ejemplo temperatura, presión, vibraciones o ubicación. La red transmite esos datos a una plataforma. Finalmente, la información permite producir una alerta, tomar una decisión o ejecutar una acción automática.
+Qué decir:
 
-Algunos ejemplos son los vehículos conectados, las casas inteligentes, los sensores agrícolas, los medidores eléctricos, el seguimiento del transporte y los dispositivos de monitoreo médico.”
+“El IoT es un conjunto de tecnologías que permite conectar objetos físicos a una red para recopilar y compartir información. El proceso puede verse en cuatro pasos. Primero tenemos un objeto, como una máquina o un vehículo. Un sensor mide información, por ejemplo temperatura, vibración o ubicación. La red transmite esos datos y, finalmente, el sistema produce una acción, como una alerta o una decisión automática. Algunos ejemplos son los medidores eléctricos, vehículos conectados, sensores agrícolas y sistemas de ciudades inteligentes.”
 
-DIAPOSITIVA 3 — SITUACIÓN EN RUSIA
+Transición:
+“Ahora veamos qué tan importante es este mercado en Rusia.”
 
-“En Rusia, el mercado del IoT ha continuado desarrollándose. Para 2025 se estimó un gasto de 192.1 mil millones de rublos, más de 112.5 millones de dispositivos conectados y un crecimiento nominal de aproximadamente entre seis y siete por ciento anual.
+DIAPOSITIVA 3 — PANORAMA EN 2025
+Tiempo: 45 segundos
 
-Sin embargo, debemos interpretar estos datos con cuidado. Una parte del aumento económico se relaciona con la inflación, el incremento de tarifas y el aprovechamiento de sistemas que ya estaban instalados. Esto significa que el valor del mercado aumenta, pero no necesariamente al mismo ritmo que la inversión en proyectos completamente nuevos.
+Qué hacer:
+- Mencionar las tres cifras principales sin detenerse demasiado.
 
-Los sectores con mayor importancia son energía, servicios públicos, transporte, industria y agricultura. Ahora mi compañero explicará las oportunidades más importantes.”
+Qué decir:
+
+“Para 2025 se estimaron 192.1 mil millones de rublos en proyectos IoT y más de 112.5 millones de dispositivos conectados. El crecimiento nominal anual se calculó entre seis y siete por ciento. Sin embargo, estas cifras deben interpretarse con cuidado, porque parte del aumento se debe a la inflación, al incremento de tarifas y al uso de sistemas ya instalados. Por eso, el valor del mercado crece, pero la inversión en proyectos nuevos sigue siendo más limitada.”
+
+Cambio de expositor:
+“Mi compañero explicará en qué sectores existen las mejores oportunidades.”
 
 ============================================================
-PARTICIPANTE 2 — DIAPOSITIVAS 4, 5 Y 6
-Oportunidades, caso práctico y conectividad satelital
+EXPOSITOR 2 — DIAPOSITIVAS 4, 5 Y 6
+OPORTUNIDADES, EJEMPLO INDUSTRIAL Y SATÉLITES
 ============================================================
 
-DIAPOSITIVA 4 — PRINCIPALES OPORTUNIDADES
+DIAPOSITIVA 4 — OPORTUNIDADES
+Tiempo: 50 segundos
 
-“El IoT ofrece oportunidades en varios sectores rusos. La primera es la automatización industrial. Rusia cuenta con actividades importantes de petróleo, gas, minería, metalurgia, energía y manufactura. Los sensores pueden supervisar maquinaria y ayudar a evitar fallas.
+Qué hacer:
+- Agrupar los sectores en lugar de leer las seis tarjetas completas.
 
-En energía y servicios públicos, el IoT puede medir el consumo, detectar fugas y controlar redes de agua, electricidad y calefacción. En transporte, permite usar GPS, telemetría y sensores de carga para administrar flotas que recorren grandes distancias.
+Qué decir:
 
-También existen aplicaciones en agricultura, como medir la humedad del suelo y optimizar el riego; y en ciudades inteligentes, mediante iluminación, tráfico, estacionamiento, transporte público, seguridad y recolección de residuos.
+“Las oportunidades se concentran en seis áreas. En la industria, los sensores ayudan a vigilar maquinaria de petróleo, gas, minería y manufactura. En energía y servicios públicos permiten medir consumo, detectar fugas y controlar redes de agua o calefacción. En transporte se utilizan GPS y telemetría para administrar flotas que recorren grandes distancias. También existen aplicaciones en agricultura y ciudades inteligentes. Finalmente, el IoT satelital permite conectar sensores ubicados donde las redes terrestres no llegan.”
 
-Finalmente, una oportunidad especialmente importante para Rusia es el IoT satelital.”
+Transición:
+“Un ejemplo sencillo nos permite entender el beneficio para la industria.”
 
 DIAPOSITIVA 5 — MANTENIMIENTO PREDICTIVO
+Tiempo: 40 segundos
 
-“Un ejemplo claro es el mantenimiento predictivo en una fábrica. Imaginemos un sensor instalado en un motor industrial. El sensor mide constantemente la vibración y la temperatura del equipo.
+Qué hacer:
+- Seguir con la mano el flujo sensor, plataforma, análisis y alerta.
 
-Los datos se envían a una plataforma IoT, donde se organizan y analizan. Si el sistema detecta un comportamiento fuera de lo normal, genera una alerta para el operador.
+Qué decir:
 
-La diferencia es que ya no es necesario esperar a que la máquina se averíe. La empresa puede programar el mantenimiento antes de la falla. Esto reduce interrupciones, disminuye costos y aumenta la seguridad de los trabajadores y de las instalaciones.”
+“Imaginemos un sensor instalado en el motor de una fábrica. El sensor mide constantemente la vibración y la temperatura. Después envía los datos a una plataforma IoT, que identifica comportamientos anormales. Si detecta una posible falla, alerta al operador para que programe el mantenimiento. Esto se llama mantenimiento predictivo porque se actúa antes de que la máquina se averíe. Así se reducen los paros, los costos y los riesgos.”
+
+Transición:
+“Pero en Rusia existe otro problema: cómo conectar equipos situados a miles de kilómetros.”
 
 DIAPOSITIVA 6 — IOT SATELITAL
+Tiempo: 40 segundos
 
-“El territorio ruso es enorme y existen regiones aisladas donde instalar fibra óptica, redes móviles o infraestructura terrestre puede resultar complicado y costoso.
+Qué hacer:
+- Señalar la conexión entre el sensor, el satélite y el centro.
 
-En estos lugares, un sensor puede enviar información mediante una conexión satelital hacia una plataforma central. Esta tecnología puede utilizarse en agricultura, monitoreo ambiental, transporte, regiones alejadas e infraestructura energética.
+Qué decir:
 
-La geografía rusa crea una situación interesante: la conectividad es uno de sus mayores problemas, pero también genera una oportunidad para desarrollar soluciones satelitales. A continuación, veremos los principales retos que deben resolverse.”
+“Rusia tiene regiones muy extensas y poco pobladas donde instalar fibra óptica o redes móviles puede ser difícil. En estos lugares, un sensor puede enviar información mediante satélite hacia una plataforma central. Esto resulta útil para agricultura, transporte, monitoreo ambiental e infraestructura energética. La geografía rusa representa un problema de conectividad, pero al mismo tiempo crea una gran oportunidad para el desarrollo del IoT satelital.”
+
+Cambio de expositor:
+“A continuación veremos los retos que deben resolverse para aprovechar estas oportunidades.”
 
 ============================================================
-PARTICIPANTE 3 — DIAPOSITIVAS 7, 8, 9 Y 10
-Retos, balance, futuro y conclusión
+EXPOSITOR 3 — DIAPOSITIVAS 7, 8, 9 Y 10
+RETOS, BALANCE, FUTURO Y CONCLUSIÓN
 ============================================================
 
-DIAPOSITIVA 7 — RETOS
+DIAPOSITIVA 7 — PRINCIPALES RETOS
+Tiempo: 50 segundos
 
-“El principal reto es la ciberseguridad. Cada dispositivo conectado puede convertirse en un punto de entrada para un ataque. Un sistema IoT incluye sensores, redes, servidores y aplicaciones. Si uno de estos elementos es vulnerable, puede ponerse en riesgo todo el sistema.
+Qué hacer:
+- Comenzar por la tarjeta grande de ciberseguridad.
 
-Esto es especialmente grave porque el IoT puede controlar infraestructura física, como fábricas, redes eléctricas, sistemas de agua, transporte y edificios.
+Qué decir:
 
-Otros obstáculos son la falta de conectividad en regiones remotas, la incompatibilidad entre dispositivos y plataformas, la dependencia de determinados componentes tecnológicos y los altos costos de redes, servidores, mantenimiento, seguridad e integración.
+“El reto más delicado es la ciberseguridad. Cada sensor, red, servidor o aplicación puede convertirse en un punto de entrada para un ataque. Esto es especialmente grave porque algunos sistemas IoT controlan fábricas, electricidad, agua, transporte y edificios. También existen problemas de conectividad en regiones remotas, falta de compatibilidad entre dispositivos, dependencia de componentes tecnológicos, costos elevados y escasez de especialistas que combinen programación, electrónica, redes y seguridad.”
 
-También existe una escasez de especialistas capaces de combinar programación, electrónica, redes, análisis de datos, inteligencia artificial y ciberseguridad.”
+Transición:
+“Por eso el mercado ruso presenta un equilibrio entre beneficios y dificultades.”
 
 DIAPOSITIVA 8 — OPORTUNIDADES FRENTE A RETOS
+Tiempo: 30 segundos
 
-“Podemos resumir la situación como un equilibrio entre oportunidades y retos. Rusia puede aprovechar el IoT para automatizar industrias, modernizar ciudades, conectar el transporte, mejorar la energía y desarrollar tecnología nacional.
+Qué hacer:
+- Comparar brevemente ambos lados de la pantalla.
 
-Pero para conseguirlo necesita resolver problemas de ciberseguridad, conectividad, costos, falta de estándares y formación de especialistas.
+Qué decir:
 
-Algunos retos también pueden convertirse en oportunidades. Por ejemplo, las grandes distancias impulsan el IoT satelital y la dificultad para conseguir ciertos componentes puede fomentar el desarrollo de hardware y software producido localmente.”
+“Por un lado, el IoT puede modernizar industrias, ciudades, transporte y energía. Por otro, necesita seguridad, conectividad, inversión, estándares y personal capacitado. Algunos problemas también pueden convertirse en oportunidades: las grandes distancias impulsan las soluciones satelitales y la dependencia tecnológica puede fomentar el desarrollo de hardware y software producido en Rusia.”
 
-DIAPOSITIVA 9 — EL FUTURO DEL IOT
+Transición:
+“El futuro dependerá de combinar el IoT con otras tecnologías.”
 
-“En el futuro, el IoT probablemente avanzará mediante su combinación con otras tecnologías.
+DIAPOSITIVA 9 — FUTURO DEL IOT
+Tiempo: 40 segundos
 
-La inteligencia artificial puede analizar los datos y detectar anomalías. El edge computing permite procesar parte de la información cerca del dispositivo, reduciendo la latencia y la dependencia de una conexión permanente. Las redes 5G pueden soportar más dispositivos y transmitir información con mayor rapidez. Finalmente, los satélites pueden extender la cobertura hacia zonas remotas.
+Qué hacer:
+- Mencionar las cuatro tecnologías siguiendo las tarjetas.
 
-En conjunto, estas tecnologías permiten pasar de un simple sensor a un sistema capaz de detectar problemas y ayudar a tomar decisiones en tiempo real.”
+Qué decir:
+
+“La inteligencia artificial puede analizar datos y detectar anomalías. El edge computing procesa información cerca del dispositivo y reduce la dependencia de una conexión permanente. Las redes 5G permiten conectar más equipos con menor tiempo de respuesta. Los satélites amplían la cobertura hacia zonas remotas. Juntas, estas tecnologías convierten un sensor en un sistema capaz de detectar problemas y ayudar a tomar decisiones en tiempo real.”
+
+Transición:
+“Con esto podemos llegar a nuestra conclusión.”
 
 DIAPOSITIVA 10 — CONCLUSIÓN
+Tiempo: 35 segundos
 
-“Para concluir, Rusia tiene condiciones que hacen que el IoT sea especialmente útil: una industria extensa, grandes necesidades energéticas y un territorio con enormes distancias.
+Qué hacer:
+- Hablar más despacio y terminar mirando al público.
 
-El potencial es muy grande, pero la ejecución es el verdadero reto. El éxito dependerá de mejorar la seguridad, ampliar la conectividad, controlar los costos, establecer estándares y formar profesionales especializados.
+Qué decir:
 
-La idea principal que queremos dejar es que el IoT puede transformar los desafíos geográficos e industriales de Rusia en una ventaja tecnológica.
+“Para concluir, Rusia tiene condiciones que hacen al IoT especialmente útil: una gran industria, importantes necesidades energéticas y enormes distancias. El potencial es muy grande, pero su éxito dependerá de mejorar la seguridad, ampliar la conectividad, reducir costos y formar especialistas. La idea principal es que el IoT puede transformar los desafíos geográficos e industriales de Rusia en una ventaja tecnológica. Muchas gracias por su atención. ¿Tienen alguna pregunta?”
 
-Muchas gracias por su atención. ¿Tienen alguna pregunta?”
+============================================================
+RECOMENDACIONES PARA ENSAYAR
+============================================================
+
+1. Ensayen una vez con cronómetro. La meta es terminar entre 6:00 y 7:30 minutos.
+2. No memoricen palabra por palabra; recuerden la idea principal de cada diapositiva.
+3. Cada expositor debe encargarse de avanzar sus propias diapositivas.
+4. Eviten leer las tarjetas de la pantalla; úsenlas como apoyo visual.
+5. En cada cambio, el siguiente expositor debe comenzar inmediatamente.
+6. Si van demasiado lentos, reduzcan ejemplos, pero conserven la conclusión.
