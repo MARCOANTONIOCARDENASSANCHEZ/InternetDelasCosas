@@ -34,7 +34,7 @@ Tiempo: 45 segundos
 
 Qué hacer:
 - Señalar visualmente el recorrido de izquierda a derecha.
-- Al avanzar desde la portada aparecerá automáticamente una transición animada de aproximadamente seis segundos. Esperar a que termine y comenzar a explicar cuando aparezca esta diapositiva.
+- Al avanzar desde la portada aparecerá automáticamente una transición animada de aproximadamente 24 segundos. Presenta una secuencia visual: objeto, sensor, datos, red, satélite y plataforma IoT. Esperar a que termine y comenzar a explicar cuando aparezca esta diapositiva.
 
 Qué decir:
 
@@ -159,7 +159,7 @@ Qué decir:
 RECOMENDACIONES PARA ENSAYAR
 ============================================================
 
-1. Ensayen una vez con cronómetro. Con la transición y el video de seguridad, la meta es terminar entre 6:45 y 7:30 minutos.
+1. Ensayen una vez con cronómetro. Con la transición de 24 segundos y el video de seguridad, la meta es terminar entre 7:00 y 7:40 minutos.
 2. No memoricen palabra por palabra; recuerden la idea principal de cada diapositiva.
 3. Cada expositor debe encargarse de avanzar sus propias diapositivas.
 4. Eviten leer las tarjetas de la pantalla; úsenlas como apoyo visual.

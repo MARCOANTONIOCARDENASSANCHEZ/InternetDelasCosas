@@ -23,7 +23,7 @@ function show(index){
 function finishTransition(){clearTimeout(transitionTimer);transitionRunning=false;iotTransition.classList.remove('playing');iotTransition.setAttribute('aria-hidden','true');show(1)}
 function go(index){
   if(current===0&&index===1&&!transitionRunning&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
-    transitionRunning=true;iotTransition.classList.add('playing');iotTransition.setAttribute('aria-hidden','false');transitionTimer=setTimeout(finishTransition,6500);return;
+    transitionRunning=true;iotTransition.classList.add('playing');iotTransition.setAttribute('aria-hidden','false');transitionTimer=setTimeout(finishTransition,24000);return;
   }
   show(index);
 }
