@@ -34,7 +34,7 @@ Tiempo: 45 segundos
 
 Qué hacer:
 - Señalar visualmente el recorrido de izquierda a derecha.
-- Al avanzar desde la portada aparecerá automáticamente una transición animada de aproximadamente 24 segundos. La cámara recorre una ciudad conectada y muestra salud, transporte, viviendas, movilidad, energía y agricultura enlazándose mediante IoT. Esperar a que termine y comenzar a explicar cuando aparezca esta diapositiva.
+- Al avanzar desde la portada se reproducirá automáticamente un fragmento de aproximadamente 24 segundos del video oficial de ESA sobre el Internet de las Cosas. Esperar a que termine y comenzar a explicar cuando aparezca esta diapositiva.
 
 Qué decir:
 
@@ -165,4 +165,4 @@ RECOMENDACIONES PARA ENSAYAR
 4. Eviten leer las tarjetas de la pantalla; úsenlas como apoyo visual.
 5. En cada cambio, el siguiente expositor debe comenzar inmediatamente.
 6. Si van demasiado lentos, reduzcan ejemplos, pero conserven la conclusión.
-7. El video de IBM necesita internet. Si la conexión falla, no se detengan: cierren la ventana y continúen usando la animación de la diapositiva.
+7. Los videos de ESA e IBM necesitan internet. Si la conexión falla, no se detengan: omitan el fragmento y continúen con la explicación.
