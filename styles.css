@@ -87,3 +87,27 @@ h1:after{content:"РОССИЯ · ТЕХНОЛОГИИ";display:block;margin-top
 .iot-transition.playing .transition-video-wrap iframe{left:0;top:0;width:100%;height:100%;min-width:0;min-height:0;transform:none;object-fit:contain}.transition-curtain{display:none}.iot-transition.playing .transition-curtain{display:block;position:absolute;z-index:25;inset:0;background:#000;pointer-events:none;animation:finalCurtain 24s ease both}@keyframes finalCurtain{0%,91%{opacity:0}100%{opacity:1}}
 .iot-transition.playing{opacity:1;animation:none;background:#000}
 .iot-transition.playing .transition-curtain{display:none;animation:none}
+
+/* Movimiento editorial sutil para todas las diapositivas */
+@keyframes proReveal{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes proFocus{from{opacity:0;transform:scale(.985)}to{opacity:1;transform:none}}
+@keyframes proRule{from{opacity:0;transform:scaleX(0)}to{opacity:1;transform:scaleX(1)}}
+.active .slide-heading .kicker,.active .territory-layout .kicker,.active .finale-content>.kicker{animation:proReveal .48s .05s cubic-bezier(.22,.7,.25,1) both}
+.active .slide-heading h2,.active .territory-layout h2,.active .finale-content>h2{animation:proReveal .58s .12s cubic-bezier(.22,.7,.25,1) both}
+.active .slide-heading>p:last-child,.active .territory-layout .lead,.active .finale-content>p:not(.kicker){animation:proReveal .58s .2s cubic-bezier(.22,.7,.25,1) both}
+.active .slide-heading h2:after,.active .territory-layout h2:after,.active .finale h2:after{transform-origin:left;animation:proRule .55s .3s ease-out both}
+.active.finale h2:after{transform-origin:center;animation:proRule .55s .3s ease-out both}
+.active .hero-grid>div:first-child>*{animation:proReveal .6s cubic-bezier(.22,.7,.25,1) both}
+.active .hero-grid>div:first-child>*:nth-child(2){animation-delay:.1s}.active .hero-grid>div:first-child>*:nth-child(3){animation-delay:.18s}.active .hero-grid>div:first-child>*:nth-child(4){animation-delay:.26s}
+.active .signal-orbit,.active .territory-diagram,.active .risk-card,.active .balance-center{animation:proFocus .72s .2s cubic-bezier(.22,.7,.25,1) both}
+.active .metrics article,.active .sector-grid article,.active .benefit-row article,.active .challenge-list article,.active .balance-side,.active .future-grid article{animation:proReveal .58s cubic-bezier(.22,.7,.25,1) both}
+.active .metrics article:nth-child(1),.active .sector-grid article:nth-child(1),.active .benefit-row article:nth-child(1),.active .challenge-list article:nth-child(1),.active .balance-side:nth-child(1),.active .future-grid article:nth-child(1){animation-delay:.2s}
+.active .metrics article:nth-child(2),.active .sector-grid article:nth-child(2),.active .benefit-row article:nth-child(2),.active .challenge-list article:nth-child(2),.active .future-grid article:nth-child(2){animation-delay:.28s}
+.active .metrics article:nth-child(3),.active .sector-grid article:nth-child(3),.active .benefit-row article:nth-child(3),.active .challenge-list article:nth-child(3),.active .future-grid article:nth-child(3){animation-delay:.36s}
+.active .sector-grid article:nth-child(4),.active .challenge-list article:nth-child(4),.active .future-grid article:nth-child(4){animation-delay:.44s}
+.active .sector-grid article:nth-child(5){animation-delay:.52s}.active .sector-grid article:nth-child(6){animation-delay:.6s}
+.active .balance-side:nth-child(3){animation-delay:.36s}
+.active .insight,.active .example-strip,.active .uses,.active .future-flow,.active .takeaway,.active .finale-content>h3{animation:proReveal .58s .5s cubic-bezier(.22,.7,.25,1) both}
+.metrics article,.sector-grid article,.benefit-row article,.challenge-list article,.balance-side,.future-grid article,.risk-card{transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+@media(hover:hover){.metrics article:hover,.sector-grid article:hover,.benefit-row article:hover,.challenge-list article:hover,.balance-side:hover,.future-grid article:hover,.risk-card:hover{transform:translateY(-3px);border-color:rgba(216,170,82,.58);box-shadow:0 18px 42px rgba(0,0,0,.2)}}
+@media(prefers-reduced-motion:reduce){.active .slide-heading>*,.active .territory-layout>*,.active .finale-content>*,.active .hero-grid>div:first-child>*,.active .signal-orbit,.active .territory-diagram,.active .risk-card,.active .balance-center,.active .metrics article,.active .sector-grid article,.active .benefit-row article,.active .challenge-list article,.active .balance-side,.active .future-grid article,.active .insight,.active .example-strip,.active .uses,.active .future-flow,.active .takeaway{animation:none!important}.metrics article,.sector-grid article,.benefit-row article,.challenge-list article,.balance-side,.future-grid article,.risk-card{transition:none!important}}
