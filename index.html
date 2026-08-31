@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Exposición interactiva sobre Internet de las Cosas (IoT) en Rusia." />
+  <title>IoT en Rusia · Exposición</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#slide-1" aria-label="Volver al inicio"><span class="brand-mark">РУ</span><span>Rusia · Unidad 1</span></a>
+    <div class="top-actions"><button class="icon-button" id="fullscreenButton" type="button" title="Pantalla completa (F)">Pantalla completa</button></div>
+  </header>
+
+  <main class="deck" id="deck">
+    <section class="slide hero active" id="slide-1" data-label="Inicio">
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow"><span class="flag">RU</span> Tecnología, territorio y transformación</p>
+          <h1>Internet de las<br><span>Cosas en Rusia</span></h1>
+          <p class="lead">Cómo los objetos conectados están transformando la industria, la energía, el transporte y las ciudades de uno de los territorios más extensos del mundo.</p>
+          <div class="hero-meta"><span>Unidad 1</span></div>
+        </div>
+        <div class="signal-orbit" aria-label="Diagrama de dispositivos conectados">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="core">IoT<small>datos conectados</small></div>
+          <span class="node n1">Sensor</span><span class="node n2">Industria</span><span class="node n3">Energía</span><span class="node n4">Satélite</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-2" data-label="Concepto">
+      <div class="slide-heading"><p class="kicker">01 · Fundamentos</p><h2>¿Qué es el IoT?</h2><p>Una red de objetos físicos capaces de recopilar, compartir y usar datos.</p></div>
+      <div class="flow-card">
+        <div class="flow-step"><span>01</span><b>Objeto</b><small>Máquina, vehículo o medidor</small></div><i>→</i>
+        <div class="flow-step"><span>02</span><b>Sensor</b><small>Captura temperatura, ubicación o presión</small></div><i>→</i>
+        <div class="flow-step"><span>03</span><b>Red</b><small>Transmite la información</small></div><i>→</i>
+        <div class="flow-step accent"><span>04</span><b>Acción</b><small>Alerta, decisión o automatización</small></div>
+      </div>
+      <div class="example-strip"><b>Ejemplos cotidianos y productivos</b><span>Vehículos conectados</span><span>Casas inteligentes</span><span>Agricultura</span><span>Monitoreo médico</span><span>Ciudades inteligentes</span></div>
+    </section>
+
+    <section class="slide" id="slide-3" data-label="Situación">
+      <div class="slide-heading"><p class="kicker">02 · Panorama 2025</p><h2>Un mercado grande, pero con matices</h2><p>El crecimiento económico no significa necesariamente la misma expansión en proyectos nuevos.</p></div>
+      <div class="metrics">
+        <article><span class="metric-value">192.1</span><b>mil millones ₽</b><p>Gasto estimado en proyectos IoT</p></article>
+        <article><span class="metric-value">112.5+</span><b>millones</b><p>Dispositivos IoT conectados</p></article>
+        <article><span class="metric-value">6–7%</span><b>crecimiento nominal</b><p>Estimación anual</p></article>
+      </div>
+      <div class="insight"><span>Lectura clave</span><p>Parte del aumento se relaciona con inflación, tarifas y aprovechamiento de sistemas ya instalados. La inversión nueva continúa siendo más limitada.</p></div>
+    </section>
+
+    <section class="slide" id="slide-4" data-label="Oportunidades">
+      <div class="slide-heading"><p class="kicker">03 · Oportunidades</p><h2>Donde el IoT genera más valor</h2></div>
+      <div class="sector-grid">
+        <article><span>01</span><h3>Industria</h3><p>Mantenimiento predictivo en petróleo, gas, minería, metalurgia y manufactura.</p></article>
+        <article><span>02</span><h3>Energía y ЖКХ</h3><p>Medición automática, detección de fugas y control de agua, calefacción y redes.</p></article>
+        <article><span>03</span><h3>Transporte</h3><p>GPS, telemetría, temperatura de carga y gestión de flotas en largas distancias.</p></article>
+        <article><span>04</span><h3>Agricultura</h3><p>Humedad del suelo, clima, riego eficiente y seguimiento de maquinaria.</p></article>
+        <article><span>05</span><h3>Ciudades</h3><p>Tráfico, iluminación, residuos, seguridad, estacionamiento y transporte público.</p></article>
+        <article class="highlight"><span>06</span><h3>IoT satelital</h3><p>Conexión para sensores e infraestructura situados en regiones remotas.</p></article>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-5" data-label="Caso práctico">
+      <div class="slide-heading"><p class="kicker">04 · Caso práctico</p><h2>Del sensor al mantenimiento predictivo</h2><p>Detectar un problema antes de que una máquina se detenga.</p></div>
+      <div class="pipeline">
+        <div><span class="pulse-dot"></span><b>Sensor industrial</b><small>Mide vibración y temperatura</small></div><i>→</i>
+        <div><span class="data-icon">101</span><b>Plataforma IoT</b><small>Recibe y ordena los datos</small></div><i>→</i>
+        <div><span class="chart-icon">⌁</span><b>Análisis</b><small>Identifica una anomalía</small></div><i>→</i>
+        <div class="alert-step"><span>!</span><b>Alerta</b><small>El operador actúa a tiempo</small></div>
+      </div>
+      <div class="benefit-row"><article><b>Menos paros</b><p>Se evita esperar a que la máquina falle.</p></article><article><b>Menos costos</b><p>La intervención se programa con anticipación.</p></article><article><b>Mayor seguridad</b><p>Se detectan condiciones peligrosas.</p></article></div>
+    </section>
+
+    <section class="slide" id="slide-6" data-label="Territorio">
+      <div class="territory-layout">
+        <div><p class="kicker">05 · Ventaja estratégica</p><h2>La distancia convierte al satélite en oportunidad</h2><p class="lead compact">En regiones aisladas, las redes terrestres pueden ser difíciles o costosas. El IoT satelital conecta sensores remotos con una plataforma central.</p>
+          <div class="uses"><span>Agricultura</span><span>Monitoreo ambiental</span><span>Infraestructura energética</span><span>Transporte</span></div>
+        </div>
+        <div class="territory-diagram"><span class="sat">SAT</span><div class="beam b1"></div><div class="beam b2"></div><div class="ground g1">Sensor</div><div class="ground g2">Centro</div><p>Zona remota → señal satelital → plataforma</p></div>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-7" data-label="Retos">
+      <div class="slide-heading"><p class="kicker">06 · Retos</p><h2>Conectar más también aumenta la complejidad</h2></div>
+      <div class="challenge-layout">
+        <div class="risk-card"><span class="risk-label">Riesgo crítico</span><h3>Ciberseguridad</h3><p>Cada dispositivo puede ser un punto de entrada. Si falla un elemento, puede comprometerse toda la cadena.</p><div class="risk-chain"><span>Sensor</span><i>→</i><span>Red</span><i>→</i><span>Servidor</span><i>→</i><span>Aplicación</span></div><small>El impacto puede alcanzar fábricas, agua, energía, transporte y edificios.</small></div>
+        <div class="challenge-list">
+          <article><b>Conectividad</b><span>Zonas extensas y poco pobladas</span></article>
+          <article><b>Interoperabilidad</b><span>Protocolos y plataformas incompatibles</span></article>
+          <article><b>Componentes</b><span>Dependencia tecnológica y sustitución de importaciones</span></article>
+          <article><b>Costos</b><span>Redes, servidores, seguridad e integración</span></article>
+          <article><b>Talento</b><span>Escasez de especialistas multidisciplinarios</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-8" data-label="Balance">
+      <div class="slide-heading"><p class="kicker">07 · Balance</p><h2>Una tensión que define el mercado</h2></div>
+      <div class="balance-board">
+        <div class="balance-side positive"><h3>Oportunidades</h3><ul><li>Automatización industrial</li><li>Ciudades y energía inteligentes</li><li>Transporte conectado</li><li>IoT satelital</li><li>Tecnología nacional</li></ul></div>
+        <div class="balance-center"><span>VS</span><p>El avance depende de convertir los retos en capacidades propias.</p></div>
+        <div class="balance-side negative"><h3>Retos</h3><ul><li>Ciberseguridad</li><li>Conectividad remota</li><li>Altos costos</li><li>Falta de estándares</li><li>Escasez de especialistas</li></ul></div>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-9" data-label="Futuro">
+      <div class="slide-heading"><p class="kicker">08 · Futuro</p><h2>El IoT no avanzará solo</h2><p>Su evolución dependerá de la combinación con otras tecnologías.</p></div>
+      <div class="future-grid">
+        <article><span>IA</span><h3>Inteligencia Artificial</h3><p>Analiza datos y detecta anomalías.</p></article>
+        <article><span>EDGE</span><h3>Edge Computing</h3><p>Procesa cerca del dispositivo y reduce latencia.</p></article>
+        <article><span>5G</span><h3>Redes 5G</h3><p>Conecta más equipos con mayor velocidad.</p></article>
+        <article><span>SAT</span><h3>Satélites</h3><p>Extienden la cobertura a grandes distancias.</p></article>
+      </div>
+      <div class="future-flow">Sensor <i>→</i> datos <i>→</i> IA <i>→</i> anomalía <i>→</i> alerta <i>→</i> mantenimiento</div>
+    </section>
+
+    <section class="slide finale" id="slide-10" data-label="Cierre">
+      <div class="finale-content"><p class="kicker">Conclusión</p><h2>El potencial es enorme.<br><span>La ejecución es el verdadero reto.</span></h2><p>Rusia tiene necesidades ideales para el IoT: industria, energía y territorio. El éxito dependerá de seguridad, conectividad, inversión, estándares y talento especializado.</p><div class="takeaway"><b>Idea final</b><span>El IoT puede transformar los desafíos geográficos e industriales de Rusia en una ventaja tecnológica.</span></div><h3>¿Preguntas?</h3></div>
+    </section>
+  </main>
+
+  <footer class="controls">
+    <button id="prevButton" type="button" aria-label="Diapositiva anterior">←</button>
+    <div class="progress-wrap"><div class="progress" id="progress"></div></div>
+    <span id="counter">01 / 10</span>
+    <button id="nextButton" type="button" aria-label="Siguiente diapositiva">→</button>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

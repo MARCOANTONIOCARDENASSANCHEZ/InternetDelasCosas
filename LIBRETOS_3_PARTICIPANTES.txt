@@ -1,0 +1,104 @@
+LIBRETOS PARA LA EXPOSICIÓN: INTERNET DE LAS COSAS EN RUSIA
+
+Duración sugerida total: 9 a 12 minutos.
+
+============================================================
+PARTICIPANTE 1 — DIAPOSITIVAS 1, 2 Y 3
+Introducción, concepto y situación del mercado
+============================================================
+
+DIAPOSITIVA 1 — INTRODUCCIÓN
+
+“Buenas tardes. Nuestro tema es el Internet de las Cosas en Rusia. El Internet de las Cosas, también llamado IoT por sus siglas en inglés, está transformando la manera en que funcionan las industrias, las ciudades y los servicios públicos.
+
+Elegimos analizar Rusia porque combina dos características muy importantes: posee una industria de gran tamaño y, al mismo tiempo, un territorio extremadamente extenso. Esto hace que la tecnología IoT tenga muchas oportunidades, pero también retos muy particulares.
+
+Durante la exposición veremos qué es el IoT, cuál es su situación en Rusia, sus principales aplicaciones, los obstáculos que enfrenta y cómo podría evolucionar en el futuro.”
+
+DIAPOSITIVA 2 — ¿QUÉ ES EL IOT?
+
+“El Internet de las Cosas es un conjunto de tecnologías que permite conectar objetos físicos a una red. Estos objetos incorporan sensores y otros dispositivos capaces de recopilar, transmitir y recibir información.
+
+El proceso puede explicarse en cuatro pasos. Primero tenemos un objeto, como una máquina, un vehículo o un medidor. Después, un sensor registra información, por ejemplo temperatura, presión, vibraciones o ubicación. La red transmite esos datos a una plataforma. Finalmente, la información permite producir una alerta, tomar una decisión o ejecutar una acción automática.
+
+Algunos ejemplos son los vehículos conectados, las casas inteligentes, los sensores agrícolas, los medidores eléctricos, el seguimiento del transporte y los dispositivos de monitoreo médico.”
+
+DIAPOSITIVA 3 — SITUACIÓN EN RUSIA
+
+“En Rusia, el mercado del IoT ha continuado desarrollándose. Para 2025 se estimó un gasto de 192.1 mil millones de rublos, más de 112.5 millones de dispositivos conectados y un crecimiento nominal de aproximadamente entre seis y siete por ciento anual.
+
+Sin embargo, debemos interpretar estos datos con cuidado. Una parte del aumento económico se relaciona con la inflación, el incremento de tarifas y el aprovechamiento de sistemas que ya estaban instalados. Esto significa que el valor del mercado aumenta, pero no necesariamente al mismo ritmo que la inversión en proyectos completamente nuevos.
+
+Los sectores con mayor importancia son energía, servicios públicos, transporte, industria y agricultura. Ahora mi compañero explicará las oportunidades más importantes.”
+
+============================================================
+PARTICIPANTE 2 — DIAPOSITIVAS 4, 5 Y 6
+Oportunidades, caso práctico y conectividad satelital
+============================================================
+
+DIAPOSITIVA 4 — PRINCIPALES OPORTUNIDADES
+
+“El IoT ofrece oportunidades en varios sectores rusos. La primera es la automatización industrial. Rusia cuenta con actividades importantes de petróleo, gas, minería, metalurgia, energía y manufactura. Los sensores pueden supervisar maquinaria y ayudar a evitar fallas.
+
+En energía y servicios públicos, el IoT puede medir el consumo, detectar fugas y controlar redes de agua, electricidad y calefacción. En transporte, permite usar GPS, telemetría y sensores de carga para administrar flotas que recorren grandes distancias.
+
+También existen aplicaciones en agricultura, como medir la humedad del suelo y optimizar el riego; y en ciudades inteligentes, mediante iluminación, tráfico, estacionamiento, transporte público, seguridad y recolección de residuos.
+
+Finalmente, una oportunidad especialmente importante para Rusia es el IoT satelital.”
+
+DIAPOSITIVA 5 — MANTENIMIENTO PREDICTIVO
+
+“Un ejemplo claro es el mantenimiento predictivo en una fábrica. Imaginemos un sensor instalado en un motor industrial. El sensor mide constantemente la vibración y la temperatura del equipo.
+
+Los datos se envían a una plataforma IoT, donde se organizan y analizan. Si el sistema detecta un comportamiento fuera de lo normal, genera una alerta para el operador.
+
+La diferencia es que ya no es necesario esperar a que la máquina se averíe. La empresa puede programar el mantenimiento antes de la falla. Esto reduce interrupciones, disminuye costos y aumenta la seguridad de los trabajadores y de las instalaciones.”
+
+DIAPOSITIVA 6 — IOT SATELITAL
+
+“El territorio ruso es enorme y existen regiones aisladas donde instalar fibra óptica, redes móviles o infraestructura terrestre puede resultar complicado y costoso.
+
+En estos lugares, un sensor puede enviar información mediante una conexión satelital hacia una plataforma central. Esta tecnología puede utilizarse en agricultura, monitoreo ambiental, transporte, regiones alejadas e infraestructura energética.
+
+La geografía rusa crea una situación interesante: la conectividad es uno de sus mayores problemas, pero también genera una oportunidad para desarrollar soluciones satelitales. A continuación, veremos los principales retos que deben resolverse.”
+
+============================================================
+PARTICIPANTE 3 — DIAPOSITIVAS 7, 8, 9 Y 10
+Retos, balance, futuro y conclusión
+============================================================
+
+DIAPOSITIVA 7 — RETOS
+
+“El principal reto es la ciberseguridad. Cada dispositivo conectado puede convertirse en un punto de entrada para un ataque. Un sistema IoT incluye sensores, redes, servidores y aplicaciones. Si uno de estos elementos es vulnerable, puede ponerse en riesgo todo el sistema.
+
+Esto es especialmente grave porque el IoT puede controlar infraestructura física, como fábricas, redes eléctricas, sistemas de agua, transporte y edificios.
+
+Otros obstáculos son la falta de conectividad en regiones remotas, la incompatibilidad entre dispositivos y plataformas, la dependencia de determinados componentes tecnológicos y los altos costos de redes, servidores, mantenimiento, seguridad e integración.
+
+También existe una escasez de especialistas capaces de combinar programación, electrónica, redes, análisis de datos, inteligencia artificial y ciberseguridad.”
+
+DIAPOSITIVA 8 — OPORTUNIDADES FRENTE A RETOS
+
+“Podemos resumir la situación como un equilibrio entre oportunidades y retos. Rusia puede aprovechar el IoT para automatizar industrias, modernizar ciudades, conectar el transporte, mejorar la energía y desarrollar tecnología nacional.
+
+Pero para conseguirlo necesita resolver problemas de ciberseguridad, conectividad, costos, falta de estándares y formación de especialistas.
+
+Algunos retos también pueden convertirse en oportunidades. Por ejemplo, las grandes distancias impulsan el IoT satelital y la dificultad para conseguir ciertos componentes puede fomentar el desarrollo de hardware y software producido localmente.”
+
+DIAPOSITIVA 9 — EL FUTURO DEL IOT
+
+“En el futuro, el IoT probablemente avanzará mediante su combinación con otras tecnologías.
+
+La inteligencia artificial puede analizar los datos y detectar anomalías. El edge computing permite procesar parte de la información cerca del dispositivo, reduciendo la latencia y la dependencia de una conexión permanente. Las redes 5G pueden soportar más dispositivos y transmitir información con mayor rapidez. Finalmente, los satélites pueden extender la cobertura hacia zonas remotas.
+
+En conjunto, estas tecnologías permiten pasar de un simple sensor a un sistema capaz de detectar problemas y ayudar a tomar decisiones en tiempo real.”
+
+DIAPOSITIVA 10 — CONCLUSIÓN
+
+“Para concluir, Rusia tiene condiciones que hacen que el IoT sea especialmente útil: una industria extensa, grandes necesidades energéticas y un territorio con enormes distancias.
+
+El potencial es muy grande, pero la ejecución es el verdadero reto. El éxito dependerá de mejorar la seguridad, ampliar la conectividad, controlar los costos, establecer estándares y formar profesionales especializados.
+
+La idea principal que queremos dejar es que el IoT puede transformar los desafíos geográficos e industriales de Rusia en una ventaja tecnológica.
+
+Muchas gracias por su atención. ¿Tienen alguna pregunta?”
