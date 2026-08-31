@@ -42,6 +42,7 @@
         <div class="flow-step accent"><span>04</span><b>Acción</b><small>Alerta, decisión o automatización</small></div>
       </div>
       <div class="example-strip"><b>Ejemplos cotidianos y productivos</b><span>Vehículos conectados</span><span>Casas inteligentes</span><span>Agricultura</span><span>Monitoreo médico</span><span>Ciudades inteligentes</span></div>
+      <button class="media-button" type="button" data-video="esa" aria-label="Reproducir video breve sobre el funcionamiento del IoT"><span class="play-symbol">▶</span><span><b>Video breve</b><small>Cómo funciona el IoT · ESA</small></span></button>
     </section>
 
     <section class="slide" id="slide-3" data-label="Situación">
@@ -98,6 +99,7 @@
           <article><b>Talento</b><span>Escasez de especialistas multidisciplinarios</span></article>
         </div>
       </div>
+      <button class="media-button danger" type="button" data-video="security" aria-label="Reproducir video breve sobre seguridad IoT"><span class="play-symbol">▶</span><span><b>Video breve</b><small>Seguridad de dispositivos IoT · IBM</small></span></button>
     </section>
 
     <section class="slide" id="slide-8" data-label="Balance">
@@ -131,6 +133,13 @@
     <span id="counter">01 / 10</span>
     <button id="nextButton" type="button" aria-label="Siguiente diapositiva">→</button>
   </footer>
+  <div class="video-modal" id="videoModal" role="dialog" aria-modal="true" aria-label="Video de apoyo" hidden>
+    <div class="video-shell">
+      <button class="video-close" id="videoClose" type="button" aria-label="Cerrar video">×</button>
+      <div class="video-frame"><iframe id="videoFrame" title="Video de apoyo para la exposición" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="clip-timer"><span id="clipLabel">Fragmento recomendado</span><div><i id="clipProgress"></i></div><b id="clipTime">25 s</b></div>
+    </div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
