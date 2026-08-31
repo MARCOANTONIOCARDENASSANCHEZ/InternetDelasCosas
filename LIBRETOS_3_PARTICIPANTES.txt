@@ -34,7 +34,7 @@ Tiempo: 45 segundos
 
 Qué hacer:
 - Señalar visualmente el recorrido de izquierda a derecha.
-- Al avanzar desde la portada aparecerá automáticamente una transición animada de aproximadamente 24 segundos. Presenta una secuencia visual: objeto, sensor, datos, red, satélite y plataforma IoT. Esperar a que termine y comenzar a explicar cuando aparezca esta diapositiva.
+- Al avanzar desde la portada aparecerá automáticamente una transición animada de aproximadamente 24 segundos. La cámara recorre una ciudad conectada y muestra salud, transporte, viviendas, movilidad, energía y agricultura enlazándose mediante IoT. Esperar a que termine y comenzar a explicar cuando aparezca esta diapositiva.
 
 Qué decir:
 
