@@ -5,11 +5,11 @@ const videoModal=document.getElementById('videoModal');
 const videoFrame=document.getElementById('videoFrame');
 const clipProgress=document.getElementById('clipProgress');
 const clipTime=document.getElementById('clipTime');
-const videos={
-  esa:{src:'https://www.youtube-nocookie.com/embed/ot2SbM3ZOzk?start=0&end=25&autoplay=1&rel=0',seconds:25},
-  security:{src:'https://www.youtube-nocookie.com/embed/7zWVxrjjIpE?start=8&end=33&autoplay=1&rel=0',seconds:25}
-};
+const videos={security:{src:'https://www.youtube-nocookie.com/embed/7zWVxrjjIpE?start=8&end=33&autoplay=1&rel=0',seconds:25}};
 let clipTimer;
+const iotTransition=document.getElementById('iotTransition');
+let transitionTimer;
+let transitionRunning=false;
 let current=0;
 
 function show(index){
@@ -20,8 +20,16 @@ function show(index){
   history.replaceState(null,'',`#${slides[current].id}`);
   document.title=`${slides[current].dataset.label} · IoT en Rusia`;
 }
+function finishTransition(){clearTimeout(transitionTimer);transitionRunning=false;iotTransition.classList.remove('playing');iotTransition.setAttribute('aria-hidden','true');show(1)}
+function go(index){
+  if(current===0&&index===1&&!transitionRunning&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
+    transitionRunning=true;iotTransition.classList.add('playing');iotTransition.setAttribute('aria-hidden','false');transitionTimer=setTimeout(finishTransition,6500);return;
+  }
+  show(index);
+}
+document.getElementById('skipTransition').addEventListener('click',finishTransition);
 document.getElementById('prevButton').addEventListener('click',()=>show(current-1));
-document.getElementById('nextButton').addEventListener('click',()=>show(current+1));
+document.getElementById('nextButton').addEventListener('click',()=>go(current+1));
 document.getElementById('fullscreenButton').addEventListener('click',()=>document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen());
 function closeVideo(){clearInterval(clipTimer);videoFrame.src='';videoModal.hidden=true;clipProgress.style.width='0%'}
 document.querySelectorAll('[data-video]').forEach(button=>button.addEventListener('click',()=>{
@@ -33,10 +41,11 @@ document.getElementById('videoClose').addEventListener('click',closeVideo);
 videoModal.addEventListener('click',e=>{if(e.target===videoModal)closeVideo()});
 document.addEventListener('keydown',e=>{
   if(e.key==='Escape'&&!videoModal.hidden){closeVideo();return}
-  if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();show(current+1)}
+  if(transitionRunning){if(['Escape','ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();finishTransition()}return}
+  if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();go(current+1)}
   if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(current-1)}
   if(e.key==='Home')show(0); if(e.key==='End')show(slides.length-1);
   if(e.key.toLowerCase()==='f')document.getElementById('fullscreenButton').click();
 });
-let startX=0;document.addEventListener('touchstart',e=>startX=e.changedTouches[0].clientX,{passive:true});document.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-startX;if(Math.abs(dx)>60)show(current+(dx<0?1:-1))},{passive:true});
+let startX=0;document.addEventListener('touchstart',e=>startX=e.changedTouches[0].clientX,{passive:true});document.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-startX;if(Math.abs(dx)>60)(dx<0?go(current+1):show(current-1))},{passive:true});
 const hashIndex=slides.findIndex(s=>`#${s.id}`===location.hash);show(hashIndex>=0?hashIndex:0);

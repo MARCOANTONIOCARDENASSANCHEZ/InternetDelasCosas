@@ -34,7 +34,7 @@ Tiempo: 45 segundos
 
 Qué hacer:
 - Señalar visualmente el recorrido de izquierda a derecha.
-- Al terminar la explicación, abrir el video de ESA y mostrar únicamente el fragmento de 25 segundos. Cerrar cuando el contador llegue a cero.
+- Al avanzar desde la portada aparecerá automáticamente una transición animada de aproximadamente seis segundos. Esperar a que termine y comenzar a explicar cuando aparezca esta diapositiva.
 
 Qué decir:
 
@@ -159,10 +159,10 @@ Qué decir:
 RECOMENDACIONES PARA ENSAYAR
 ============================================================
 
-1. Ensayen una vez con cronómetro. Con los dos videos de 25 segundos, la meta es terminar entre 7:00 y 7:30 minutos.
+1. Ensayen una vez con cronómetro. Con la transición y el video de seguridad, la meta es terminar entre 6:45 y 7:30 minutos.
 2. No memoricen palabra por palabra; recuerden la idea principal de cada diapositiva.
 3. Cada expositor debe encargarse de avanzar sus propias diapositivas.
 4. Eviten leer las tarjetas de la pantalla; úsenlas como apoyo visual.
 5. En cada cambio, el siguiente expositor debe comenzar inmediatamente.
 6. Si van demasiado lentos, reduzcan ejemplos, pero conserven la conclusión.
-7. Los videos necesitan internet. Si la conexión falla, no se detengan: cierren la ventana y continúen usando la animación de la diapositiva.
+7. El video de IBM necesita internet. Si la conexión falla, no se detengan: cierren la ventana y continúen usando la animación de la diapositiva.
