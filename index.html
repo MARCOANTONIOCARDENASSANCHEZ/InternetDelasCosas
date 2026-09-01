@@ -98,7 +98,6 @@
           <article><b>Talento</b><span>Escasez de especialistas multidisciplinarios</span></article>
         </div>
       </div>
-      <button class="media-button danger" type="button" data-video="security" aria-label="Reproducir video breve sobre seguridad IoT"><span class="play-symbol">▶</span><span><b>Video breve</b><small>Seguridad de dispositivos IoT · IBM</small></span></button>
     </section>
 
     <section class="slide" id="slide-8" data-label="Balance">
@@ -126,25 +125,12 @@
     </section>
   </main>
 
-  <div class="iot-transition" id="iotTransition" aria-hidden="true">
-    <div class="transition-video-wrap" style="position:absolute;inset:0;background:#000;overflow:hidden"><iframe id="transitionVideo" title="Transición visual sobre Internet de las Cosas" allow="autoplay; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;inset:0;width:100%;height:100%;border:0"></iframe></div>
-    <div class="transition-curtain"></div>
-    <button id="skipTransition" type="button">Omitir</button>
-  </div>
-
   <footer class="controls">
     <button id="prevButton" type="button" aria-label="Diapositiva anterior">←</button>
     <div class="progress-wrap"><div class="progress" id="progress"></div></div>
     <span id="counter">01 / 10</span>
     <button id="nextButton" type="button" aria-label="Siguiente diapositiva">→</button>
   </footer>
-  <div class="video-modal" id="videoModal" role="dialog" aria-modal="true" aria-label="Video de apoyo" hidden>
-    <div class="video-shell">
-      <button class="video-close" id="videoClose" type="button" aria-label="Cerrar video">×</button>
-      <div class="video-frame"><iframe id="videoFrame" title="Video de apoyo para la exposición" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
-      <div class="clip-timer"><span id="clipLabel">Fragmento recomendado</span><div><i id="clipProgress"></i></div><b id="clipTime">25 s</b></div>
-    </div>
-  </div>
   <script src="script.js"></script>
 </body>
 </html>
